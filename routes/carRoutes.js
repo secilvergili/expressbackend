@@ -24,7 +24,7 @@ router
     .delete(idControl, deleteCar);
 
     // server.js e router ı tanıtmak için export ettik
-    module.wxports = router;
+    module.exports = router;
     
 
 
